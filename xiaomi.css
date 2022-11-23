@@ -1,0 +1,53 @@
+body{
+  background-image: url(./img/fonda.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.boton4{
+            
+    text-decoration: none;
+    display:inline-block;
+    width:20px;
+    padding:20px;
+    background: rgb(143, 143, 143);
+    width: 120px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.9s ease;
+    box-shadow: -5px 1px 3px 0px rgb(45, 248, 0);
+    border-radius: 10px 30px;
+
+  }
+.texto{
+  color:rgb(247, 132, 132);
+}
+
+  .boton4:hover{
+            
+    background: rgb(182, 187, 182);
+    color:rgb(126, 126, 126);
+    box-shadow:none;
+    border-radius: 10px;
+
+  }
+
+  *{
+    font-family: 'quicksand' , sans-serif;
+  }
+  .contenedor-imagen{
+    width: 400px;
+    border-radius: 10px;
+  }
+  .info{
+    text-align:justify;
+    color: white;
+  }
+  .titulo{
+    color: white;
+    text-align: center;
+  }
